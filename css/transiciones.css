@@ -1,0 +1,102 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 25px;
+}
+
+.transicion1 {
+    transition: width 5s;
+    
+}
+.transicion1:hover{
+    width: 300px;
+}
+
+.transicion2{
+    transition:width 2s, height 3s;
+
+
+}
+.transicion2:hover{
+    width: 200px;
+    height: 300px;
+
+
+}
+
+
+.transicion3-linear{
+    transition: width 4s;
+    transition-timing-function: linear;
+
+
+}
+.transicion3-linear:hover{
+    width: 500px;
+
+
+}
+.transicion3-ease{
+
+    transition: width 4s;
+    transition-timing-function: ease;
+
+}
+.transicion3-ease:hover{
+    width: 500px;
+}
+.transicion3-easein{
+    transition: width 4s;
+    transition-timing-function: ease-in;
+
+}
+.transicion3-easein:hover{
+    width: 500px;
+}
+.transition3-easeout{
+    transition: width 4s;
+    transition-timing-function: ease-out;
+
+}
+.transition3-easeout:hover{
+    width: 500px;
+
+}
+.transicion3-easeinout{
+    transition: width 4s;
+    transition-timing-function: ease-in-out;
+
+}
+.transicion3-easeinout:hover{
+    width: 500px;
+}
+
+
+
+.transicion4 {
+transition:width 4s, height 4s, transform 4s;    
+transition-delay: 1s;
+}
+
+.transicion4:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+.linear{
+
+}
+.ease{
+
+}
+.easein{
+
+}
+.easeout{
+
+}
+.easeinout{
+
+}
